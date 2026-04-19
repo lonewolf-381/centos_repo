@@ -1,0 +1,18 @@
+# Auto-detect text files and normalize line endings to LF
+* text=auto
+
+# Explicit rules for common file types
+*.sh text eol=lf
+*.py text eol=lf
+*.java text eol=lf
+*.c text eol=lf
+*.cpp text eol=lf
+*.js text eol=lf
+*.ts text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+
+# Windows-specific files (keep CRLF)
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
